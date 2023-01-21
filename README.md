@@ -6,3 +6,7 @@ This is a simple admin theme. It's based on Flask
 ```
 pip install -r requirements.txt
 ```
+## Usage
+```
+python main.py
+```
