@@ -14,5 +14,9 @@ def user_profile():
 def contact_form():
     return render_template('pages-contact.html')
 
+@app.route('/faq')
+def faq_page():
+    return render_template('pages-faq.html')
+
 if __name__ == '__main__':
     app.run()
