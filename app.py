@@ -10,5 +10,9 @@ def dashboard():
 def user_profile():
     return render_template('users-profile.html')
 
+@app.route('/contact')
+def contact_form():
+    return render_template('pages-contact.html')
+
 if __name__ == '__main__':
     app.run()
