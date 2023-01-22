@@ -18,5 +18,13 @@ def contact_form():
 def faq_page():
     return render_template('pages-faq.html')
 
+@app.route('/register')
+def register():
+    return render_template('pages-register.html')
+
+@app.route('/login')
+def login():
+    return render_template('pages-login.html')
+
 if __name__ == '__main__':
     app.run()
