@@ -26,5 +26,13 @@ def register():
 def login():
     return render_template('pages-login.html')
 
+@app.route('/error')
+def error_404():
+    return render_template('pages-error-404.html')
+
+@app.route('/blank')
+def blank():
+    return render_template('pages-blank.html')
+
 if __name__ == '__main__':
     app.run()
