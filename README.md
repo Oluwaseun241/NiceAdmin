@@ -1,6 +1,6 @@
 # Nice Admin
 
-This is a simple admin theme. It's based on Flask
+This is a simple admin dashboard. It's based on Flask
 
 ## Installation
 ```
